@@ -14,6 +14,7 @@
 		1BB7ABCE1CCA1711008348D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7ABCC1CCA1711008348D7 /* LaunchScreen.storyboard */; };
 		1BB7ABD91CCA1711008348D7 /* GamebyGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7ABD81CCA1711008348D7 /* GamebyGitTests.swift */; };
 		1BB7ABE41CCA1711008348D7 /* GamebyGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7ABE31CCA1711008348D7 /* GamebyGitUITests.swift */; };
+		1BB7AC2D1CCA1F33008348D7 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7AC2C1CCA1F33008348D7 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1BB7ABDF1CCA1711008348D7 /* GamebyGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamebyGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB7ABE31CCA1711008348D7 /* GamebyGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamebyGitUITests.swift; sourceTree = "<group>"; };
 		1BB7ABE51CCA1711008348D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB7AC2C1CCA1F33008348D7 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1BB7ABC31CCA1711008348D7 /* AppDelegate.swift */,
 				1BB7ABC51CCA1711008348D7 /* ViewController.swift */,
+				1BB7AC2C1CCA1F33008348D7 /* Test.swift */,
 				1BB7ABC71CCA1711008348D7 /* Main.storyboard */,
 				1BB7ABCA1CCA1711008348D7 /* Assets.xcassets */,
 				1BB7ABCC1CCA1711008348D7 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				1BB7ABC61CCA1711008348D7 /* ViewController.swift in Sources */,
 				1BB7ABC41CCA1711008348D7 /* AppDelegate.swift in Sources */,
+				1BB7AC2D1CCA1F33008348D7 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				1BB7ABEA1CCA1711008348D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BB7ABEB1CCA1711008348D7 /* Build configuration list for PBXNativeTarget "GamebyGitTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				1BB7ABED1CCA1711008348D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BB7ABEE1CCA1711008348D7 /* Build configuration list for PBXNativeTarget "GamebyGitUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				1BB7ABF01CCA1711008348D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
