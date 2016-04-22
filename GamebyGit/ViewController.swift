@@ -9,9 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var sum:Int?
     override func viewDidLoad() {
         super.viewDidLoad()
+        let a = 5
+        let b = 10
+        
+        self.sum = a + b
+        
+        NSLog("The result is: %d", self.sum!);
         // Do any additional setup after loading the view, typically from a nib.
     }
 
