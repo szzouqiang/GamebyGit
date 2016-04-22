@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let b = 10
         let c = 22
         
-        self.sum = a + b
+        self.sum = a + b + c
         
         NSLog("The result is: %d", self.sum!);
         // Do any additional setup after loading the view, typically from a nib.
