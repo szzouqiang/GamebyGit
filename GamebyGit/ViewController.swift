@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         let b = 10
         let c = 22
         
-        self.sum = a + b + c - (self.test?.a)! - (self.test?.b)!
+        self.sum = a + b + c - (self.test?.a)! - (self.test?.b)! + self.add(a, b: b)
         
         NSLog("The result is: %d", self.sum!);
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,7 +27,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    func add(a:Int, b:Int)->Int{
+        return a+b
+    }
 
 }
 
